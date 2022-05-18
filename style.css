@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Space+Mono&display=swap');
+
+body {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(204, 201, 250, 0.6);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+#profile_pic {
+  height: 238px;
+  width: 168px;
+  border-radius: 10%;
+  box-shadow: 8px 8px 8px rgb(151, 151, 151);
+}
+
+h1, h2{
+  font-family:  Arial, Helvetica, sans-serif;
+  color: rgba(25,25,25,0.6);
+  font-size: 24px;
+}
+
+p {
+  width: 300px;
+  text-align: justify;
+  margin: 12px auto;
+  margin-bottom: 34px;
+}
+
+.btn {
+  text-decoration: none;
+  color: rgb(73, 70, 250);
+  font-size: medium;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  border-radius: 4px;
+  background-color: rgb(204, 201, 250);
+}
+
+.btn:hover {
+ background-color: black;
+ color: white;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(0,200,0, 0.5);
+}
+
+.list-inline i:hover {
+  color: black;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 32px;
+  display: block;
+  padding-right: 32px;
+}
+
+i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+  display: inline-block;
+}
+
+li {
+  display: inline;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  p {
+    width: 250px;
+  }
+
+  .container {
+    width: 300px;
+  }
+}
